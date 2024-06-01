@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Recipe</title>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <style>
+      body {
+        margin: 0;
+        background-color: #ffe4c4;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      .big {
+        height: 10px;
+        width: 90%;
+        margin: 10px auto;
+      }
+
+      .small {
+        height: 2px;
+        width: 90%;
+        margin: 10px auto;
+      }
+
+      .separater {
+        background-color: black;
+      }
+
+      section > *:not(div) {
+        margin: 0 5%;
+        padding: 5px;
+        width: 90%;
+      }
+
+      header > * {
+        margin-left: 5%;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #ffda99;
+      }
+
+      tr:nth-child(even) {
+        background-color: #eabd9f;
+      }
+
+      thead > tr:nth-child(odd) {
+        background-color: #f5dac9;
+      }
+
+      h1,
+      h2 {
+        font-family: Georgia, serif;
+      }
+
+      li {
+        scroll-behavior: smooth;
+      }
+
+      p,
+      li,
+      th,
+      td {
+        font-family: Verdana, sans-serif;
+      }
+
+      a {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Someone's Recipe Book</h1>
+
+      <h2>Contents:</h2>
+
+      <ol>
+        <li><a href="#chicken">Chicken</a></li>
+        <li><a href="#rice">Rice</a></li>
+        <li><a href="#beef">Beef</a></li>
+        <li><a href="#pasta">Pasta</a></li>
+      </ol>
+    </header>
+    <div class="separater big"></div>
+    <section id="chicken">
+      <h2>Chicken</h2>
+      <div class="separater small"></div>
+      <ul>
+        <li>Time: 10 minutes</li>
+        <li>Serves: 4 people</li>
+      </ul>
+      <div class="separater small"></div>
+      <table>
+        <thead>
+          <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Salt</td>
+            <td>2g</td>
+          </tr>
+          <tr>
+            <td>Seasoning</td>
+            <td>10g</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="separater small"></div>
+      <p><strong>Step 1:</strong> Cut the chicken into 3-5 pieces.</p>
+      <p><strong>Step 2:</strong> Place seasoning and salt and spread them on the chicken.</p>
+      <p>
+        <strong>Step 3:</strong> Put the chicken on the stove for 10 minutes. Flip the chicken pieces when 5 minutes is
+        up.
+      </p>
+    </section>
+    <div class="separater big"></div>
+    <section id="rice">
+      <h2>Rice</h2>
+      <div class="separater small"></div>
+      <ul>
+        <li>Time: 20 minutes</li>
+        <li>Serves: 8 people</li>
+      </ul>
+      <div class="separater small"></div>
+      <table>
+        <thead>
+          <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Eggs</td>
+            <td>5g</td>
+          </tr>
+          <tr>
+            <td>Curry</td>
+            <td>10g</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="separater small"></div>
+      <p><strong>Step 1:</strong> Place curry on the stove for 15 minutes.</p>
+      <p><strong>Step 2:</strong> While the curry is cooking, boil rice in the pot for 15 minutes.</p>
+      <p><strong>Step 3:</strong> Place the curry on the rice once both are done.</p>
+    </section>
+    <div class="separater big"></div>
+    <section id="beef">
+      <h2>Beef</h2>
+      <div class="separater small"></div>
+      <ul>
+        <li>Time: 20 minutes</li>
+        <li>Serves: 4 people</li>
+      </ul>
+      <div class="separater small"></div>
+      <table>
+        <thead>
+          <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Seasoning</td>
+            <td>10 grams</td>
+          </tr>
+          <tr>
+            <td>Mayo</td>
+            <td>2 grams</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="separater small"></div>
+      <p><strong>Step 1:</strong> Place mayo, then seasoning on the beef.</p>
+      <p><strong>Step 2:</strong> Cook the beef on the pan for 20 minutes.</p>
+    </section>
+    <div class="separater big"></div>
+    <section id="pasta">
+      <h2>Pasta</h2>
+      <div class="separater small"></div>
+      <ul>
+        <li>Time: 13 minutes</li>
+        <li>Serves: 8 people</li>
+      </ul>
+      <div class="separater small"></div>
+      <table>
+        <thead>
+          <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Brown Butter</td>
+            <td>5 grams</td>
+          </tr>
+          <tr>
+            <td>Cheese Sause</td>
+            <td>5 grams</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="separater small"></div>
+      <p><strong>Step 1:</strong> Place brown butter and cheese sause in the bowl of pasta.</p>
+      <p><strong>Step 2:</strong> Cook pasta for 13 minutes with the condiments.</p>
+    </section>
+  </body>
+</html>
